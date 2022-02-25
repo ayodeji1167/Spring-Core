@@ -1,12 +1,9 @@
 package Entity;
 
-import org.springframework.stereotype.Component;
 
-@Component
 public class Student {
 
     private String name;
-
 
 
     public String getName() {
@@ -15,5 +12,12 @@ public class Student {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }
