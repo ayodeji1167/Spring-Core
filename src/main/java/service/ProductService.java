@@ -23,7 +23,7 @@ public class ProductService {
      *           to call this method otherwise, Exception will be thrown)
      * SUPPORTS (Method will work if you have or do not have a transaction...depends on who is calling
      * NOT_SUPPORTED (Allows you to call with or without transaction BUT never use the transaction)
-     * NESTED (Creating Another Transaction Inside A Transaction)
+     * NESTtED (Creating Another Transaction Inside A Transaction)
      */
     @Transactional()
     public void addNewProduct() {
